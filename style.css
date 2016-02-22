@@ -49,6 +49,11 @@ table {
 html, body {
 	color: #282828;
 }
+/*estilos de los elementos del encabezado*/
 header {
 	background-color: #282828;
+}
+
+header img {
+	width: 150px;
 }
