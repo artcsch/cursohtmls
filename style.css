@@ -57,6 +57,7 @@ header {
 
 header img {
 	width: 250px;
+	display: block;
 } 
 
 nav ul li {
