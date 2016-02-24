@@ -61,4 +61,5 @@ header img {
 
 nav ul li {
 	color: #ffffff;
+	display: inline;
 }
