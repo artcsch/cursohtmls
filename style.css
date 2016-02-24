@@ -47,14 +47,16 @@ table {
 	border-spacing: 0;
 }
 /*estilo de la pagina propia*/
+/*para completar la aparacion de nuestro fondo de la clase home hayq que darl al padre tambien el tamños usando la eiqueta height que en vertical*/
 html, body {
 	color: #282828;
+	height: 100%
 }
 /*estilos de los elementos del encabezado*/
 header {
 	background-color: #282828;
 }
-
+/*la etiqueta display con la propiedad block no se ejecuta o no se ve como se desea uno despues de otro en linea por lo que aun no se esta utilizando riticulas*/
 header img {
 	width: 250px;
 	display: block;
@@ -63,4 +65,11 @@ header img {
 nav ul li {
 	color: #ffffff;
 	display: inline;
+}
+/* En CSS dando estilos a nuestro elemento modificador clase home class="home"*/
+/*utlizando la etiqueta backgraund-image: como fondo de nuestra clase home que se utilizamos una imagen*/
+/*utilizando la etiqueta height para ver la imagen del fondo por motivos de que tamaño hay que darle valor de height como este en un hijo del padre html body hay que tambien colocar la etique height en nuestra linea de css valor para que pude aparecer nuestro fondo a utlizar*/
+.home{
+	background-image: url('assets/bg.jpg');
+	height: 100%;
 }
