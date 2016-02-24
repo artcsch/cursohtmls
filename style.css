@@ -48,9 +48,13 @@ table {
 }
 /*estilo de la pagina propia*/
 /*para completar la aparacion de nuestro fondo de la clase home hayq que darl al padre tambien el tamños usando la eiqueta height que en vertical*/
+/*ahora utilizando los tipos de letras con la etiqueta font-family*/
+/*con la etiqueta font-weight le damos la opcion a nuestros elementos de tipo texto que sean normal o negrillas a su vez si se desea que ciertos elemento sehan  de diferente aspecto se debe utilziar la etique en cada elemento que se desea ver diferente*/
 html, body {
 	color: #282828;
-	height: 100%
+	height: 100%;
+	/*con la eitqueta font-family se puede utlizar varios tipos de letras depende del navegador y de las configuracion del usuario podemos colocar como helvetica comomi configuracion y sans-serif si enel caso no haya helvetica*/
+	font-family: 'Monda', sans-serif;
 }
 /*estilos de los elementos del encabezado*/
 header {
@@ -65,6 +69,7 @@ header img {
 nav ul li {
 	color: #ffffff;
 	display: inline;
+	font-weight: 400;
 }
 /* En CSS dando estilos a nuestro elemento modificador clase home class="home"*/
 /*utlizando la etiqueta backgraund-image: como fondo de nuestra clase home que se utilizamos una imagen*/
@@ -82,20 +87,23 @@ nav ul li {
 h1{
 	font-size: 60px;
 	text-transform: uppercase;/*dando ejemplo de como utilizlar la etiqueta text-transformet:*/
+	font-weight: 700;
 }
 /*se creo nuestro segunda clase boton*/
 /*vemos la etiqueta text-decoration´para quitar el subrayado de nuestro texto*/
 /*la etiqueta text-transform: uppercase para colar nuestro texto a mayuscula la que esten en minusculas*/
 /*utilizando la etiqueta background-color utilizando los colores en hexadecimal*/
 /*pading: son lo bordes interior de nuestro elemento*/
+/*cuando se utiliza padding hay que recordar que nuestro elemento crece un ejejmplo si al inicio le dimos a nuestro elemento 10px y despues le colocamos padding de 30px ahora ese lemento ya no ide los 10px sino 40px por que se suman los valores 10px del inicio y 30px del padding*/
 .boton{
 	color: #ffffff;
 	text-decoration: none;
 	text-transform: uppercase;
 	background-color: #ffb400;
-	padding: 20px 30px 20px 30px;
+	padding: 20px 30px;
 	/*padding-left: 30px;
 	padding-right: 30px;
 	padding-top: 20px;
 	padding-bottom: 20px;/*estas cuatro lineas de codigo puedo hacer shorting que quiere decir utiliza la propiedad pading: y darle los cuatro valores para que tome la forma deseada **/
+	font-weight: 400;
 }
