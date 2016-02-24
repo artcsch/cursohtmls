@@ -60,6 +60,9 @@ html, body {
 /*dando estilo al footer se aclara la duda sobre la coma es para indicar que es un y esto quiere decir que el header y footer van a tener una propiedad igual */
 header, footer {
 	background-color: #282828;
+	/*la etiqueta position absolute es para fijar nuestro elemento ignorando cualquier otro comportamiento que haya tenido antes*/
+	position: absolute;
+	width: 100%;
 }
 /*la etiqueta display con la propiedad block no se ejecuta o no se ve como se desea uno despues de otro en linea por lo que aun no se esta utilizando riticulas*/
 header img {
@@ -78,15 +81,24 @@ nav ul li {
 /*alineando el texto de nuestra clase home con la etiqueta text-align: center*/
 /*dando formato al texto de nuestra clase con la etiqueta font-size*/
 .home{
-	background-image: url('assets/bg.jpg');
-	height: 100%;
+	/*esta shorting del backgraund se traduce primero de fondo color blanco despues coloque la imagen de mis assets despues no la repita despues centre horizontalmente despues centre verticalmente despues fijela con fixed*/
+	background: #ffffff url('assets/bg.jpg') no-repeat center center fixed; 
+	/*background-image: url('assets/bg.jpg');*/
+	/*background-size: cover nos da la propiedad de que la imagen se adapte a los diferentes tamaños de monitores que hay para que no salgan el fondo */
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
 	text-align: center;
 	color: #ffffff;
 	/*font-size: 60px; /*con esta propiedad se realiza el cambio a todo el texto que hay dentro nuestra clase home*/
+	/*dando margenes externos a nuestro elemento*/
+	/*margin: 50%;*/
+	padding: 20% 0;
+	box-sizing: border-box;
 }
 /*la parte del texto de nuestro h1 se a modificado mas grande sin afectar mas elementos*/
 h1{
-	font-size: 60px;
+	font-size: 50px;
 	text-transform: uppercase;/*dando ejemplo de como utilizlar la etiqueta text-transformet:*/
 	font-weight: 700;
 }
@@ -107,10 +119,15 @@ h1{
 	padding-top: 20px;
 	padding-bottom: 20px;/*estas cuatro lineas de codigo puedo hacer shorting que quiere decir utiliza la propiedad pading: y darle los cuatro valores para que tome la forma deseada **/
 	font-weight: 400;
+	/*dando mas propiedades a lo botones con la etiqueta bordes-radius (redonde las esquinas de nuetro boton) y border bottom (este no da un linea mas oscura debajo de nuestro boton)*/
+	border-bottom: 6px solid #e49100;
+	border-radius: 5px;
+	-webkit-border-radius:5px;
 }
 /*dando propiedades a nuestro footer*/
 footer{
 	padding: 20px 0;
+	box-sizing: border-box;
 }
 
 footer, footer a{
