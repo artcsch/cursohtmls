@@ -69,7 +69,16 @@ nav ul li {
 /* En CSS dando estilos a nuestro elemento modificador clase home class="home"*/
 /*utlizando la etiqueta backgraund-image: como fondo de nuestra clase home que se utilizamos una imagen*/
 /*utilizando la etiqueta height para ver la imagen del fondo por motivos de que tamaño hay que darle valor de height como este en un hijo del padre html body hay que tambien colocar la etique height en nuestra linea de css valor para que pude aparecer nuestro fondo a utlizar*/
+/*alineando el texto de nuestra clase home con la etiqueta text-align: center*/
+/*dando formato al texto de nuestra clase con la etiqueta font-size*/
 .home{
 	background-image: url('assets/bg.jpg');
 	height: 100%;
+	text-align: center;
+	color: #ffffff;
+	/*font-size: 60px; /*con esta propiedad se realiza el cambio a todo el texto que hay dentro nuestra clase home*/
+}
+/*la parte del texto de nuestro h1 se a modificado mas grande sin afectar mas elementos*/
+h1{
+	font-size: 60px;
 }
