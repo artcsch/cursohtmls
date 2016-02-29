@@ -6,7 +6,7 @@
 /*dando formato al texto de nuestra clase con la etiqueta font-size*/
 .home{
 	/*esta shorting del backgraund se traduce primero de fondo color blanco despues coloque la imagen de mis assets despues no la repita despues centre horizontalmente despues centre verticalmente despues fijela con fixed*/
-	background: #ffffff url('assets/bg.jpg') no-repeat center center fixed; 
+	background: #ffffff url('../assets/bg.jpg') no-repeat center center fixed; 
 	/*background-image: url('assets/bg.jpg');*/
 	/*background-size: cover nos da la propiedad de que la imagen se adapte a los diferentes tamaños de monitores que hay para que no salgan el fondo */
 	background-size: cover;
