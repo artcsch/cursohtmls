@@ -1,0 +1,23 @@
+/* Secciones del sitio*/
+/* En CSS dando estilos a nuestro elemento modificador clase home class="home"*/
+/*utlizando la etiqueta backgraund-image: como fondo de nuestra clase home que se utilizamos una imagen*/
+/*utilizando la etiqueta height para ver la imagen del fondo por motivos de que tamaño hay que darle valor de height como este en un hijo del padre html body hay que tambien colocar la etique height en nuestra linea de css valor para que pude aparecer nuestro fondo a utlizar*/
+/*alineando el texto de nuestra clase home con la etiqueta text-align: center*/
+/*dando formato al texto de nuestra clase con la etiqueta font-size*/
+.home{
+	/*esta shorting del backgraund se traduce primero de fondo color blanco despues coloque la imagen de mis assets despues no la repita despues centre horizontalmente despues centre verticalmente despues fijela con fixed*/
+	background: #ffffff url('assets/bg.jpg') no-repeat center center fixed; 
+	/*background-image: url('assets/bg.jpg');*/
+	/*background-size: cover nos da la propiedad de que la imagen se adapte a los diferentes tamaños de monitores que hay para que no salgan el fondo */
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	text-align: center;
+	color: #ffffff;
+	/*font-size: 60px; /*con esta propiedad se realiza el cambio a todo el texto que hay dentro nuestra clase home*/
+	/*dando margenes externos a nuestro elemento*/
+	/*margin: 50%;*/
+	padding: 20% 0;
+	/*box-sizing:para se mantenga el tamaño de la caja y se modificara cuando le de valores de altura y con otras propiedades se bloquee */
+	box-sizing: border-box;
+}

@@ -1,0 +1,23 @@
+/* Formas */
+/*se creo nuestro segunda clase boton*/
+/*vemos la etiqueta text-decoration´para quitar el subrayado de nuestro texto*/
+/*la etiqueta text-transform: uppercase para colar nuestro texto a mayuscula la que esten en minusculas*/
+/*utilizando la etiqueta background-color utilizando los colores en hexadecimal*/
+/*pading: son lo bordes interior de nuestro elemento*/
+/*cuando se utiliza padding hay que recordar que nuestro elemento crece un ejejmplo si al inicio le dimos a nuestro elemento 10px y despues le colocamos padding de 30px ahora ese lemento ya no ide los 10px sino 40px por que se suman los valores 10px del inicio y 30px del padding*/
+.boton{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #ffb400;
+	padding: 20px 30px;
+	/*padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;/*estas cuatro lineas de codigo puedo hacer shorting que quiere decir utiliza la propiedad pading: y darle los cuatro valores para que tome la forma deseada **/
+	font-weight: 400;
+	/*dando mas propiedades a lo botones con la etiqueta bordes-radius (redonde las esquinas de nuetro boton) y border bottom (este no da un linea mas oscura debajo de nuestro boton)*/
+	border-bottom: 6px solid #e49100;
+	border-radius: 5px;
+	-webkit-border-radius:5px;
+}

@@ -94,6 +94,7 @@ nav ul li {
 	/*dando margenes externos a nuestro elemento*/
 	/*margin: 50%;*/
 	padding: 20% 0;
+	/*box-sizing:para se mantenga el tamaño de la caja y se modificara cuando le de valores de altura y con otras propiedades se bloquee */
 	box-sizing: border-box;
 }
 /*la parte del texto de nuestro h1 se a modificado mas grande sin afectar mas elementos*/

@@ -1,0 +1,11 @@
+/* Editorial */
+/*la parte del texto de nuestro h1 se a modificado mas grande sin afectar mas elementos*/
+h1{
+	font-size: 50px;
+	text-transform: uppercase;/*dando ejemplo de como utilizlar la etiqueta text-transformet:*/
+	font-weight: 700;
+}
+
+a{
+	text-decoration: none;
+}
