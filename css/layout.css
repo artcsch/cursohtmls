@@ -6,9 +6,11 @@ header, footer {
 	background-color: #282828;
 	/*la etiqueta position absolute es para fijar nuestro elemento ignorando cualquier otro comportamiento que haya tenido antes*/
 	position: absolute;
-	width: 100%;
 	padding: 20px 0;
 	box-sizing: border-box;
+	width: 100%;
+	color: #c3c1c1;
+	
 }
 
 /*la etiqueta display con la propiedad block no se ejecuta o no se ve como se desea uno despues de otro en linea por lo que aun no se esta utilizando riticulas*/
@@ -16,16 +18,7 @@ header img {
 	width: 250px;
 	display: block;
 } 
-
-
-nav ul li {
-	color: #ffffff;
-	display: inline;
-	font-weight: 400;
+.layout_a{
+	color: #c3c1c1;
 }
 
-
-
-footer, footer a{
-	color: #ffffff;
-}
