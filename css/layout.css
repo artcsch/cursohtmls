@@ -1,11 +1,14 @@
 /* Layuot.css */
 /*estilos de los elementos del encabezado*/
 /*dando estilo al footer se aclara la duda sobre la coma es para indicar que es un y esto quiere decir que el header y footer van a tener una propiedad igual */
+/*dando propiedades a nuestro footer*/
 header, footer {
 	background-color: #282828;
 	/*la etiqueta position absolute es para fijar nuestro elemento ignorando cualquier otro comportamiento que haya tenido antes*/
 	position: absolute;
 	width: 100%;
+	padding: 20px 0;
+	box-sizing: border-box;
 }
 
 /*la etiqueta display con la propiedad block no se ejecuta o no se ve como se desea uno despues de otro en linea por lo que aun no se esta utilizando riticulas*/
@@ -20,11 +23,8 @@ nav ul li {
 	display: inline;
 	font-weight: 400;
 }
-/*dando propiedades a nuestro footer*/
-footer{
-	padding: 20px 0;
-	box-sizing: border-box;
-}
+
+
 
 footer, footer a{
 	color: #ffffff;
