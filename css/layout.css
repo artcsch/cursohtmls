@@ -5,7 +5,9 @@
 header, footer {
 	background-color: #282828;
 	/*la etiqueta position absolute es para fijar nuestro elemento ignorando cualquier otro comportamiento que haya tenido antes*/
-	position: absolute;
+	/*position: absolute;*/
+	/*la etiqueta position fixed fija los elementos igual que absoluto */
+	position: fixed;
 	padding: 20px 0;
 	box-sizing: border-box;
 	width: 100%;
@@ -21,4 +23,14 @@ header img {
 .layout_a{
 	color: #c3c1c1;
 }
+/* indica que elh header comience a dibujar desde el inicio del pixel*/
+header{
 
+	top: 0;
+
+}
+/*indica que el footer comience a dibujar desde el ultimo pixel hacia arriba*/
+footer{
+
+	bottom: 0;
+}
