@@ -20,5 +20,9 @@
 	padding: 20% 0;
 	/*box-sizing:para se mantenga el tamaño de la caja y se modificara cuando le de valores de altura y con otras propiedades se bloquee */
 	box-sizing: border-box;
+}
+
+.full-height{
 	height: 100%;
+
 }

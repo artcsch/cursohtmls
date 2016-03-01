@@ -34,3 +34,8 @@ footer{
 
 	bottom: 0;
 }
+
+img{
+	width: 100%;
+	float: left;
+}
