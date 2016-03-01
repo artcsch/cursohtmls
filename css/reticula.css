@@ -36,6 +36,9 @@
   margin-right: -1%;
   margin-left: -1%;
 }
+.row + .row{
+  margin-bottom: 10px;/*agrega un margen */
+}
 /*es para ordenar en forma inversa nuestros objetos en nuestro html*/
 .row.reverse {
   -webkit-flex-direction: row-reverse;

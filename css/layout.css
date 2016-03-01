@@ -37,5 +37,8 @@ footer{
 
 img{
 	width: 100%;
-	float: left;
+}
+.same-height{
+	max-height: 154px;
+	overflow: hidden;
 }

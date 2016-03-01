@@ -1,16 +1,33 @@
 /* Editorial */
 /*la parte del texto de nuestro h1 se a modificado mas grande sin afectar mas elementos*/
 h1{
-	font-size: 50px;
+	font-size: 60px;/*em es un espacio que obtiene de la letra m; em equivale 16 pixeles; vh: 60 partes de l 100% quemide el viewport ; vw: vioperwiev son las 60 partes que mide a lo largo del viewport*/
 	text-transform: uppercase;/*dando ejemplo de como utilizlar la etiqueta text-transformet:*/
 	font-weight: 700;
 }
 
+h2{
+	font-size: 48px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+p{
+	color: #636363;
+}
 a{
 	text-decoration: none;
 }
 
-ol{
+/*ol{
 	list-style: decimal;
+}*/
+
+ol li {
+	counter-increment: step-counter; /*para contar pasos*/
 }
 
+ol li::before{/*before crea un elemento nuevo antes de que el DOM me dibuje mis elmentos html en esta ol li*/
+	content:counter(step-counter) ;/*insertar contenido*/
+	display: inline;
