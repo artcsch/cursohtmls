@@ -1,0 +1,22 @@
+proprocesador de CSS: cambia la syntacis va hacer mas rapido al cargar y realizar mas funciones mas avanzadas, podemos agregarle varibles a nuestros colore y asi se podra actualizar en cada parte que vaya esa variable de nuestroproyecto.
+
+como se recalca nos da variables en nuestro css 
+
+SASS: Es un procesador se lo utiliza por que tiene mas comunidad ose soporte que LESS o Styles.
+
+Es muy buena manejando media-query.
+
+El rendimiento de cada uno de ellos y se considera por el proyecto que estes y se sienta comodo.
+
+con los procesadores podemos mejora la velocidad de carga de un apagina web por los ping recuest, teniendo que descargar cada arichico del servidor al terminal se debera considerar que el numero de archivos siempre debe ser menor para que la pagina no demore al descargase o desplegarse en el navegador lo que se llamara html recuest que se logra con los preprocesadores. como LESS SASS o Styles.
+
+ejemplo 500kbytes se considra ucho el peso para descargar o desplegar la pagina.
+
+recomendaciones para html y css seguir a CRIS COllers
+
+W3C es el grupo de personas quiene nos dan lo standers para la internet 
+
+svg png y jpg = cada designer con el que se sientas mas comodo recordadno que svg es un formtao vectorialque no importa el tamaño de la pantalla simpere se vera igual y no pixcelado. png pareceido al svg con la diferencia que el tamño de la pantalla si afecta y se notara pixceladas en la imagen y jpg es un formato de imagen que no soporte transperencias se utlizara para colocar fotos o imagenes que necesiten mas detalle y este si debera ser pixcelada entre mas pixceles mucho mejor se vera en la pagina pero tambioen el tamaño sera mas grande y hara que se demore en cargar la pagina.
+
+CDN: un link externo todos los ASSETS que van a tener nuestro css, imagenes  etc. (Conten Delevery )
+
