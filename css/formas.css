@@ -19,6 +19,7 @@
 	-webkit-border-radius:5px;
 	width: 100%;
 	margin-right: 10px;
+	transition: all 200ms linear ; /* tiempo :ms mili segundos o s segundos FUNCION: linear ( inicia rapido y sale rapido) */
 }
 
 /*seudo selector*/
