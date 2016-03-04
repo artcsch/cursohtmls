@@ -19,13 +19,26 @@ h4{
 	text-transform: uppercase;
 }
 
+h3{
+	font-size: 18px;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
 p{
 	color: #636363;
+	line-height: 20px;
 }
 a{
 	text-decoration: none;
+	color: #3facef;
 }
 
+a.more{
+	text-transform: uppercase;
+	font-size: 10px;
+	text-decoration: underline;
+	margin-top: 20px;
+}
 /*ol{
 	list-style: decimal;
 }*/
@@ -37,3 +50,5 @@ ol li {
 ol li::before{/*before crea un elemento nuevo antes de que el DOM me dibuje mis elmentos html en esta ol li*/
 	content:counter(step-counter) ;/*insertar contenido*/
 	display: inline;
+}
+
