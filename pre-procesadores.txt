@@ -20,3 +20,10 @@ svg png y jpg = cada designer con el que se sientas mas comodo recordadno que sv
 
 CDN: un link externo todos los ASSETS que van a tener nuestro css, imagenes  etc. (Conten Delevery )
 
+SASS 
+ ES UN PROCESADOR DE css CON SUPER PODERES 
+
+ es para poder utilizar anidaciones 
+ utilizar variable spar a nuestro colores.
+  se escribe en sass y despues lo copilas para que el nabegador leea sasss
+
